@@ -1,0 +1,38 @@
+[
+  {
+    "Sub Category": "Date and time",
+    "Remarks": "Video kyc website is not opening set the correct date and time. Website is working issue is resolved."
+  },
+  {
+    "Sub Category": "System Configration",
+    "Remarks": "Configured a system."
+  },
+  {
+    "Sub Category": "Headset",
+    "Remarks": "Check the headset working or not. Count and informed to zain bro."
+  },
+  {
+    "Sub Category": "Display drivers",
+    "Remarks": "Display drivers installed in the system."
+  },
+  {
+    "Sub Category": "Date and time",
+    "Remarks": "Vkyc is not working. Informed to karunakar to change the time of the server. Issue is resolved."
+  },
+  {
+    "Sub Category": "Xlite",
+    "Remarks": "Xlite is stuck. End task from task manager. Reopen the xlite. Issue is resolved."
+  },
+  {
+    "Sub Category": "System off",
+    "Remarks": "Checked the system power off settings and changed them. Issue is resolved."
+  },
+  {
+    "Sub Category": "keyboard issue",
+    "Remarks": "Keyboard is not working. Checked and informed to hardware team to change the keyboard."
+  },
+  {
+    "Sub Category": "Outlook",
+    "Remarks": "Outllook has verification issue. Configured the google syncronizer to the outlook. User has forget the gmail passowrd informed to reset the  password. Issue is resolved."
+  }
+]
