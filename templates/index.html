@@ -2,12 +2,13 @@
 <html>
 <head>
     <title>Complaint Management Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
-    <h2>Complaint Management Form</h2>
+    <h2 class="head_line">Complaint Management Form</h2>
     <form method="POST">
-        <label>User Name:</label>
+        <label class="dude">User Name:</label>
         <input type="text" name="user_name" required>
 
         <label>Process:</label>
@@ -40,6 +41,6 @@
     </form>
 
     <br>
-    <a href="/download">Download Today's Report (Excel)</a>
+    <a class="download_btn" href="/download">Download Today's Report (Excel)</a>
 </body>
 </html>
