@@ -1,0 +1,90 @@
+/* Base form container */
+form {
+  background: #fff;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+  animation: fadeSlideIn 0.8s ease-out;
+}
+
+/* Animation */
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Input group styling */
+.input-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="time"],
+select {
+  width: 100%;
+  padding: 12px 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #f9f9f9;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #007bff;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Floating labels */
+.input-group label {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 16px;
+  color: #888;
+  pointer-events: none;
+  transition: 0.3s ease all;
+}
+
+/* When input has text or is focused */
+input:focus + label,
+input:not(:placeholder-shown) + label,
+select:focus + label,
+select:valid + label {
+  top: -10px;
+  left: 10px;
+  font-size: 13px;
+  background: #fff;
+  padding: 0 5px;
+  color: #007bff;
+}
+
+/* Submit button */
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background: #0056b3;
+}
